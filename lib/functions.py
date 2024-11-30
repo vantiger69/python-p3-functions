@@ -2,17 +2,17 @@
 
 def greet_programmer():
     pass
-print("Hello,programmer!")
+print("Hello, programmer!")
 
 def greet(name):
-    print(f"Hello,{name}!")
+    print(f"Hello, {name}!")
     pass
-greet("Van")
+greet("Programmer")
 
 
 
 def greet_with_default(name="Van"):
-    print(f"Hello,{name}")
+    print(f"Hello, {name}!")
     pass
 greet_with_default()
 
@@ -31,5 +31,5 @@ def halve(number):
     if type(number) not in [int,float]:
         return None
     return number / 2
-print(halve(12))
+#print(halve(12))
   
